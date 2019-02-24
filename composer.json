@@ -2,7 +2,7 @@
     "name": "gtgt/assetic-bundle",
     "description": "Integrates Assetic into Symfony2",
     "keywords": ["assets", "compression", "minification"],
-    "homepage": "https://github.com/crassula/assetic-bundle",
+    "homepage": "https://github.com/gtgt/assetic-bundle",
     "type": "symfony-bundle",
     "license": "MIT",
     "authors": [
@@ -12,13 +12,19 @@
             "homepage": "http://kriswallsmith.net/"
         }
     ],
+    "repositories":[
+        {
+            "type": "vcs",
+            "url": "https://github.com/gtgt/assetic.git"
+        }
+    ],
     "require": {
         "php": ">=5.3.0",
         "symfony/framework-bundle": "~2.3|~3.0|~4.0",
         "symfony/dependency-injection": "~2.3|~3.0|~4.0",
         "symfony/console": "~2.3|~3.0|~4.0",
         "symfony/yaml": "~2.3|~3.0|~4.0",
-        "crassula/assetic": "dev-master"
+        "gtgt/assetic": "dev-master"
     },
     "require-dev": {
         "patchwork/jsqueeze": "~1.0",
