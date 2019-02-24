@@ -27,7 +27,7 @@
         "symfony/http-kernel": "~2.3|~3.0|~4.0",
         "symfony/templating": "~2.3|~3.0|~4.0",
         "symfony/yaml": "~2.3|~3.0|~4.0",
-        "gtgt/assetic": "dev-master"
+        "gtgt/assetic": "^1.5@dev"
     },
     "require-dev": {
         "patchwork/jsqueeze": "~1.0",
